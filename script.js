@@ -8,14 +8,14 @@ let arr = [
 
 function PrintStudentswithMap() {
   arr.map(function(value){
-    if(value.marks>50) console.log(value)
+    if(value.marks>50) console.log(`${value.name} ${value.marks}`)
   })
 }
 
 function PrintStudentsbyForEach() {
   //Write your code here , just console.log
   arr.forEach(function(value){
-    if(value.marks>50) console.log(value)
+    if(value.marks>50) console.log(`${value.name} ${value.marks}`)
   })
 }
 
