@@ -21,7 +21,7 @@ function PrintStudentsbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
-  var obj={id: 4, name: "jay", age: "24", marks: 76}
+  var obj={id:4,name:"susan",age:"20",marks:45}
   arr.push(obj)
   console.log(arr)
 }
